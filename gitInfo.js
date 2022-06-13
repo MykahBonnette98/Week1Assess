@@ -10,7 +10,7 @@
 */
 
 //CODE HERE
-const gitDefinition = ''
+const gitDefinition = 'version control software that helps enhance the development process by making collaboration'
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,6 +18,7 @@ const gitDefinition = ''
 */
 
 //CODE HERE
+const gitHubDefinition = 'website where you can push git repo and share'
 
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
@@ -35,6 +36,10 @@ const gitDefinition = ''
 
 //CODE HERE
 
+const init = {
+    description: 'makes a git repo at your current directory location",
+    code: 'git init' }
+
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
@@ -42,7 +47,10 @@ const gitDefinition = ''
 */
 
 //CODE HERE
-
+const clone = {
+    description: 'copies existing repo at the specified location',
+    code: 'git clone <URL>'
+}
 //////////////////PROBLEM 5////////////////////
 /*
     Create an object called 'status' with 'description' and 'code' properties 
@@ -50,6 +58,11 @@ const gitDefinition = ''
 */
 
 //CODE HERE
+const status = {
+    description: "prints the status of the git repository you are currently in",
+    code: 'git status',
+}
+
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -58,6 +71,10 @@ const gitDefinition = ''
 */
 
 //CODE HERE
+const add = {
+    description: 'stages files to be committed',
+    code: 'git add .',
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -65,7 +82,10 @@ const gitDefinition = ''
     following the guidelines above to describe the commit command.
 */
 
-//CODE HERE
+//CODE HEREconst commit = {
+    description: 'saves changes with message',
+    code: 'git commit -m \'<your message>\''
+}
 
 
 //////////////////PROBLEM 8////////////////////
@@ -75,3 +95,7 @@ const gitDefinition = ''
 */
 
 //CODE HERE
+const push = {
+    description: 'sends new or changes to repo location',
+    code: 'git push',
+}
