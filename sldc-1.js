@@ -27,28 +27,23 @@
 
 
 
+const planning = 'To establish a framework in which the steps of software development are applied';
 console.log(planning);
-const planning = "To establish a framework in which the steps of software development are applied"
 
-console.log(analysis of requirments);
-const analysis of requirments = 'To understand and document what is required by users and other stakeholders'
 
-console.log(design);
+const requirments = 'To understand and document what is required by users and other stakeholders'
+console.log(requirments);
+
 const design = 'Around solutions to the problems presented by requirements, often involving process models and storyboards'
+console.log(design);
 
-console.log(implementation);
+
 const implementation = 'The appropriate programming language. Involves peer and team review to eliminate problems early and produce quality software faster'
+console.log(implementation);
 
-console.log(testing);
 const testing  = 'with pre-planned scenarios as part of software design and coding — and conducting performance testing to simulate load testing on the application'
+console.log(testing);
 
-console.log(maintain);
 const maintain = 'to maintain quality and delivery over the application lifecycle'
-
-
-
-
-
-
-
+console.log(maintain);
 
